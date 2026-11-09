@@ -18,3 +18,13 @@
       {
         "groups": ["external", "builtin", "internal", "sibling", "parent", "index"],
         "pathGroups": [
+          { "pattern": "env", "group": "internal" },
+          { "pattern": "types", "group": "internal" },
+          { "pattern": "components/**", "group": "internal" },
+          { "pattern": "contexts/**", "group": "internal" },
+          { "pattern": "hooks/**", "group": "internal" },
+          { "pattern": "pages/**", "group": "internal" },
+          { "pattern": "views/**", "group": "internal" },
+          { "pattern": "utils/**", "group": "internal" },
+          { "pattern": "public/**", "group": "internal", "position": "after" },
+          { "pattern": "posts/**", "group": "internal", "position": "after" }
