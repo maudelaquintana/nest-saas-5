@@ -28,3 +28,13 @@
           { "pattern": "utils/**", "group": "internal" },
           { "pattern": "public/**", "group": "internal", "position": "after" },
           { "pattern": "posts/**", "group": "internal", "position": "after" }
+        ],
+        "pathGroupsExcludedImportTypes": ["internal"],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  }
+}
